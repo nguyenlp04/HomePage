@@ -1,0 +1,78 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+
+  color: white;
+}
+.container {
+  background: url(./background.jpeg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.nav .logo a {
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  font-weight: 700;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.menu ul li {
+  padding: 6px 20px;
+}
+.menu ul li a:hover {
+  color: red;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+}
+.content button {
+  width: 150px;
+  height: 40px;
+}
+.content button:first-child {
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  font-size: 18px;
+  background-color: #008081;
+  transition: 0.5s ease-in;
+}
+.content button:last-child {
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  font-size: 18px;
+  color: #008081;
+  transition: 0.5s ease-in;
+}
+.content button:first-child:hover {
+  color: #008081;
+  background: linear-gradient(to right, #b7cae1, #728dc2);
+}
+
+.content button:last-child:hover {
+  color: white;
+  background: linear-gradient(to right, #8c8e8f, #6d87bb);
+}
